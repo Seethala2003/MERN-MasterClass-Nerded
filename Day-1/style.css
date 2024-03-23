@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    margin: 10%; 
+}
+.left{
+    flex-basis: 40%;
+}
+.left img{
+    background:radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+    display: flex;
+    justify-content: center;
+    width: 110%;
+    margin-left: -9%
+}
+.right{
+    background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.49%, #F1F5F9 100%);
+    position: relative;
+    flex-basis: 80%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.right h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.right p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.90rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    display: flex;
+}
+.right .box{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    outline: none;
+    width:80%
+}
+.right button{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+    border-color: none;
+}
+.forgot-password{
+    float: right;
+    font-size: 0.5rem;
+    margin-right: 10%;
+    margin-top:-1%;
+    margin-left:40%;
+}
+a{
+    color: blue;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: small;
+
+}
+#login {
+    margin-top:7%;
+    width:80%;
+    margin-left:3%;
+}
+.content {
+    margin-top:8%;
+    margin-left:10%;
+    margin-bottom:5%;
+}
