@@ -1,0 +1,170 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 750px;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 475px;
+}
+
+/* Left half styles */
+.left {
+    flex: 1;
+    padding: 45px;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password-link {
+    color: #555;
+    text-decoration: none;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+/* Right half styles */
+.right {
+    flex: 1;
+    padding: 30px;
+    background: radial-gradient(50% 50% at 50% 50%, #F8FAFC 0%, #F5F8FB 45.49%, #F1F5F9 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right .header {
+    margin-bottom: 50px; /* Move the header up */
+}
+
+.footer {
+    margin-top: 20px; /* Move the footer down */
+}
+
+.header {
+    margin-bottom: 36px;
+    text-align: center; /* Align text in the center */
+}
+
+.header h2, .header p {
+    margin: 0; /* Remove default margins */
+}
+
+.login-form {
+    width: 80%;
+}
+
+.form-group1,.form-group2 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+}
+.form-group2{
+    margin-bottom: 10px;
+
+}
+label {
+    font-weight: bold;
+    color: #272727;
+    font-size: 12px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 3px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 10px; /* Add margin to separate input bars */
+}
+
+
+.button-container {
+    width: 110%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 110%; /* Modify width of the button */
+    padding: 14px;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin-bottom: px;
+}
+
+button:hover {
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    color: #555;
+    font-size: 14px;
+    font-weight: 500; /* Set font weight to semi-bold */
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for mobile view */
+@media screen and (max-width: 768px) {
+    .forgot-password {
+        display: none;
+    }
+
+    .forgot-password-mobile {
+        display: block;
+    }
+}
+
+.forgot-password p{
+    text-align: right;
+    margin-top: -7px;
+    margin-right: -20px;
+    font-size: 12px;
+}
