@@ -1,1 +1,1 @@
-# MERN-MasterClass---Nerded
+# MERN-MasterClass-Nerded
